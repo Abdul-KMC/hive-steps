@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { LearnersJourney } from "./components/LearnersJourney";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hive Steps</h1>
+      <LearnersJourney />
     </div>
   );
 }
